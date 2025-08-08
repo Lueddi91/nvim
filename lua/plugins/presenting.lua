@@ -3,6 +3,7 @@ return {
 	config = function()
 		require("presenting").setup({
 			cmd = { "Presenting" },
+			options = { width = 115 },
 		})
 	end,
 }
