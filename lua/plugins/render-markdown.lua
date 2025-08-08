@@ -3,12 +3,9 @@ return {
   dependencies = { "nvim-treesitter/nvim-treesitter", "nvim-tree/nvim-web-devicons" },
   config = function()
     require("render-markdown").setup({
+      --TODO: increase Code reveal to 1line up/down of selection
       completions = {
         lsp = { enabled = true },
-        anti_conceal = {
-          above = 2,
-          below = 2,
-        },
       },
     })
   end,
