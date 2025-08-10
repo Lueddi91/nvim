@@ -1,11 +1,11 @@
 return {
 	"catppuccin/nvim",
 	name = "catppuccin",
-	priority = 100,
+	priority = 1001,
 	config = function()
     require("catppuccin").setup({
       style = "moon",
     })
-		vim.cmd.colorscheme("catppuccin")
+--		vim.cmd.colorscheme("catppuccin")
 	end,
 }
